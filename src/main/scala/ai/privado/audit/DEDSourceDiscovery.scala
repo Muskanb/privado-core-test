@@ -20,7 +20,6 @@ import scala.collection.mutable.ListBuffer
 import scala.util.{Failure, Success, Try}
 
 object DEDSourceDiscoveryUtils {
-
   private val logger = LoggerFactory.getLogger(getClass)
   // Not used for security-purposes. Only to generate a unique identifier.
   private lazy val md5 = java.security.MessageDigest.getInstance("MD5")
